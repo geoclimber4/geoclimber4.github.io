@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bikes Are Fun!</title>
+</head>
+<body>
+<h1>Why do you ride bikes?</h1>
+<nav>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="survey.html">Survey</a></li>
+		<li><a href="mybikes.html">My Bikes</a></li>
+	</ul>
+</nav>
+<p>Tell us about yourself and why you ride!</p>
+<form name="Bike Survey" action="index.html">
+	<fieldset>
+		<div>
+			<label>Full Name:</label>
+			<input type="text" name="fullname">
+		</div>
+		<div>
+			<label>Email:</label>
+			<input type="email" name="email">
+	</fieldset>
+	<fieldset>
+		<div>
+			<label>Are you a member of CAMBr</label>
+			<input type="checkbox" name="cambr" value "yes">
+		</div>
+		<div>
+			<label>What type of bike do you have?</label>
+			<select name="biketype">
+				<option value="fullsusp">Full Suspension</option>
+				<option value="hardtail">Hard Tail</option>
+				<option value="rigid">Rigid</option>
+				<option value="fatbike">Fatbike</option>
+				<option value="unicycle">Unicycle</option>
+			</select>
+		</div>
+		<div>
+			<label>Why did you first start mountain biking?</label>
+			<select name="reason">
+				<option value="exercise">Exercise</option>
+				<option value="excitement">Excitement</option>
+				<option value="outdoors">I like being outside</option>
+			</select>
+		</div>
+	</fieldset>
+	<fieldset>
+		<div>
+			<label>Tell us about why you ride</label>
+			<textarea name="textarea" rows="10" cols ="50">Put your thoughts here</textarea>
+		</div>
+	</fieldset>
+</form>
+
+</body>
+</html>
