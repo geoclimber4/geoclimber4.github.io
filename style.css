@@ -36,6 +36,14 @@ ul {
 	margin-left: 2%;
 }
 
+a:visited	{
+	color: purple;
+}
+
+#background	{
+	background-image: url("back1.jpg")
+}
+
 @media screen and (max-width: 500px) {
 
 nav {
