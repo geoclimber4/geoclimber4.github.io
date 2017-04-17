@@ -16,6 +16,10 @@ main {
 	width:80%;
 }
 
+.bikelist {
+	color: green;
+}
+
 h1 {
 	color: green;
 	text-align: center;
